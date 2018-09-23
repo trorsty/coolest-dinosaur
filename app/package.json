@@ -1,0 +1,30 @@
+{
+  "name": "coolest_dinosaur_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
+    "react": "^16.4.1",
+    "react-color": "^2.14.1",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-sketch": "^0.4.4",
+    "semantic-ui": "^2.3.1",
+    "semantic-ui-react": "^0.79.1",
+    "underscore": "^1.9.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postinstall": "npm run build"
+  },
+  "engines": {
+    "node": "10.1.0",
+    "npm": "6.1.0"
+  }
+}
